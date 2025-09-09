@@ -9,8 +9,9 @@ st.title("🌱 Analyse écologique interactive")
 # Upload de fichier
 uploaded_file = st.file_uploader("📂 Chargez un fichier CSV", type="csv")
 
-if uploaded_file:
-    df = pd.read_csv(uploaded_file, sep = ";")
+    if uploaded_file is not None:
+    sep = st.radio("Séparateur", options=[",", ";", "\t"], index=1)
+    df = pd.read_csv(uploaded_file, sep=sep)
     st.write("Aperçu des données :", df.head())
 
     # Sélection des colonnes
@@ -28,6 +29,7 @@ if uploaded_file:
     model = sm.OLS(df[y_col], X).fit()
     st.write("📊 Résultats de la régression :")
     st.write(model.summary())
+
 
 
 
