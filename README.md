@@ -27,4 +27,3 @@ Il s’agit donc d’un outil interactif simple et pratique pour l’**analyse �
 **Camille Boris FAGBEDJI**
 Master en Sciences Agronomiques – Université de Parakou (Bénin)
 Spécialisation en **ingénierie des eaux et sols, télédétection et modélisation écohydrologique**.
-👉 Veux-tu que je te propose une **structure de repo type** (app.py, data/, requirements.txt, README.md, preview\.png) pour que ce projet soit prêt à mettre directement sur GitHub ?
