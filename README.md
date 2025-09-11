@@ -26,4 +26,5 @@ Il s’agit donc d’un outil interactif simple et pratique pour l’**analyse �
 
 **Camille Boris FAGBEDJI**
 Master en Sciences Agronomiques – Université de Parakou (Bénin)
+
 Spécialisation en **ingénierie des eaux et sols, télédétection et modélisation écohydrologique**.
