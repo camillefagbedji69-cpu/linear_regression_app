@@ -15,6 +15,9 @@ Il s’agit donc d’un outil interactif simple et pratique pour l’**analyse �
 * 🔎 **Choix des variables** explicative (X) et à expliquer (Y).
 * 📈 **Nuage de points** avec `seaborn`.
 * 📊 **Régression linéaire OLS** (résultats statistiques affichés directement).
+
+## URL de l'application 
+https://linearregressionapp-9bzcpvwmuujpkzbhfdye4j.streamlit.app/
 ## 🔧 Améliorations possibles
 
 * Ajouter d’autres modèles de régression (logistique, polynomiale, etc.).
